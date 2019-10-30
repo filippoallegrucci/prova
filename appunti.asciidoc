@@ -1,0 +1,29 @@
+export PS1=”\w$ “
+
+~$ = cartella dove stiamo (HOME)
+
+git config --global user.name "Filippo Allegrucci" NOME
+
+git config --global user.email filippo.allegrucci30@gmail.com EMAIL
+
+git config --global https.proxy http://10.1.1.254:3128 IMPOSTA PROXY
+
+git config --global http.proxy http://10.1.1.254:3128	IMPOSTA PROXY
+
+git clone pathFilesuGitHub _ (copia archivio da macchina remota a pc tuo) (non in locale)
+
+git status _ ( 1° blocco FILE MODIFICATE, 2° blocco FILE NUOVI) (segnati in rosso)
+
+git add _ (aggiungi file al prossimo giro)
+
+git commit -m “........”  _ (registra le modifiche in locale)
+
+git push _ (carica archivio su server) (To https) dove sono stati caricati i dati
+
+git fetch _ recupera i dati dal server remoto
+
+git pull _ recupera e integra i dati remoti nel mio progetto
+
+git diff _ confronta i file attuali con quelli presenti nell’ultimo commit
+
+git gui
